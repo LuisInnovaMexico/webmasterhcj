@@ -1,0 +1,30 @@
+HTML5
+    (Lenguaje de marcado de hipertexto o HyperText Markup Language por sus siglas en inglés)
+
+Contenido texto e imagenes
+    Para que tu pagina aparezca en los primerios sitios debe de 
+    tener una buena readación, un buen contenido de acuerdo a 
+    lo que estan buscando los usuarios y los comentarios tambien son de ayuda
+
+Enlaces
+    Algunos sitios como los de marketing solo requieren una pagina para funcionar
+    Pero otras paginas requieren más enlaces para ir a diferentes categorias
+
+Estructurar
+    Todo sitio web tiene una estructura válida, que siga ciertos lineamientos 
+    Son linieamientos necesarios
+    Si escribimos la estructura valida, el sitio tendra un buen posicionamiento en la web
+        header: Parte superior de un sitio web o un elemento
+        footer: Parte inferior de un sitio web o un elemento
+        nav: Grupo de enlaces o navegación 
+        main: Contenido principal de un archivo .html solo uno por archivo, la parte más importante se ubica aqui 
+        section: Cuando el primer hijo es un Heading e introduce una nueva sección 
+        asaide: El contenido que acompaña al principal 
+        div: Cuando ninguno de los anteriores se puede utilizar
+
+comentarios
+    Ser brreve en los cometarios, se ve muy mal que tenga de más comentarios
+
+-------------------------------------------------------------------------------------
+CSS
+   
