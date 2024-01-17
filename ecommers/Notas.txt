@@ -1,16 +1,16 @@
 HTML5
     (Lenguaje de marcado de hipertexto o HyperText Markup Language por sus siglas en inglés)
 
-Contenido texto e imagenes
+HTML Contenido texto e imagenes
     Para que tu pagina aparezca en los primerios sitios debe de 
     tener una buena readación, un buen contenido de acuerdo a 
     lo que estan buscando los usuarios y los comentarios tambien son de ayuda
 
-Enlaces
+HTML Enlaces
     Algunos sitios como los de marketing solo requieren una pagina para funcionar
     Pero otras paginas requieren más enlaces para ir a diferentes categorias
 
-Estructurar
+HTML Estructurar
     Todo sitio web tiene una estructura válida, que siga ciertos lineamientos 
     Son linieamientos necesarios
     Si escribimos la estructura valida, el sitio tendra un buen posicionamiento en la web
@@ -22,9 +22,89 @@ Estructurar
         asaide: El contenido que acompaña al principal 
         div: Cuando ninguno de los anteriores se puede utilizar
 
-comentarios
+HTML comentarios
     Ser brreve en los cometarios, se ve muy mal que tenga de más comentarios
 
 -------------------------------------------------------------------------------------
 CSS
-   
+   ¿Que es?
+     Permitira darle a tu codigo HTML una apariencia diferente
+     CSS: Modifica texto, definir tamaño, color, espacio. ETC.
+     No se limita a los texto de CSS
+
+     CSS es muy facil 
+
+     P{
+        color: blue;
+     }
+
+     Selector P{
+        //Todo lo que este dentro en esta llaves es lo que se le aplica 
+        al selector seleccionado
+        //Tiene 
+                propiedades : Valor;
+
+     }
+
+CSS Colores
+    Los colores se definen en NOMBRE, RGB HEXADECIMAL Y HSL
+    Hexadecimal: #FFFFFF
+    Verificar la lista de navegadores que colores puede sorportar tu pagina web
+
+    ¿Mientras especifico el selector de CSS es mejor?
+        Verdadero 
+
+CSS Especifidad 
+    Especifidad podemos saber que valores seràn tomados en cuenta por el navegadores
+
+    El navegador va atomar ciertos valores en base a que tan especifico es nuestro selector
+
+    CSS se escribe en cascada toma el ultimo selector a un previamente ya se habia escrito
+    hay consideraciones
+
+CSS Classes y ID'saber
+
+    Ambos se definen en HTML con class y ID
+
+    CLASS: Tiene como caracteristicas que soporta 1 o màs, tambien se puede reutilizar
+    ID: solo se puede asignar uno por elemeto HTML y solo uno por documento
+        CLASS: es mas usada en CSS
+        ID: es m'as usado con JS
+
+    ¿Que es la Especificidad?
+        Es utilizar Classes y ID's en tus selectores permite tener un orden en nuestra pagina
+
+    
+    Nota: Evita crear selectores muy complicados, esos solo harà que tu codigo sea màs dificil de mantener
+    
+
+CSS BOX Model:
+    En CSS todo es una caja, pero como sea esa caja y que medidas tenga depende de 4 cosas
+        Contenido
+        Padding (Relleno)
+        Borde 
+        Marge
+
+
+CSS Margin or Padding
+
+    Margin: Afuera del elemento
+    Padding: Adentro del elemento
+
+    Nota: Puede utilizar la caja que esta de imagen que esta en tu navegador al inspeccionar el elemento
+
+
+CSS Normalizar 
+    Cada navegador tiene sus propios estilos
+    Podemos usar una herramienta llamada Normalize CSS exiten màs
+
+
+CSS Displays 
+    Existen 4 displays 
+    Block: Que un elemento se colocara por debajo del otro sin importar su tamaño o que tanto contenido tiene y si esposible colocarle width, height
+    Inline: Este elemento se posicionara a la derecha una vez que haya tomado el espacio que requiere no recibe width y height
+    inline-block: permite darle un width, height, margin, a un elemento inline, lo que no es posible hacer en un elemento inline
+
+
+CSS Agrupando Codigo de estilos
+    
