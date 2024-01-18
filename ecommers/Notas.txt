@@ -106,5 +106,70 @@ CSS Displays
     inline-block: permite darle un width, height, margin, a un elemento inline, lo que no es posible hacer en un elemento inline
 
 
-CSS Agrupando Codigo de estilos
+CSS Images background
+    Las imagenes de fondo se utilizan las siguientes propiedades y valores
+    siempre usan el selector de nombre hero
+         .hero {
+            background-image: url('../img/principal.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 550px;
+        }
+        
+
+---------------------------------------------------------------------------
+CSS Flexbox
+    Fue diseñado como un Modelo Unidimensional para crear Layouts
+        *Antes se utilizaban tablas, floats pero esta opcion facilito la creacion de Layouts
+
+    Ejes: 
+        Filas: Se pueden colocar o distribuir tus elementos en una direccion: sea en fila o columna
+               (row) - (column) la fila es por defalt cualdo declaras la propiedad y su valor
     
+        Colum: Al elegir esta propiedad los elementos se colocaras de arriba hacia abajo
+
+        Esta especialmente diseñado para alinear elementos en tus diseños web (Layouts).
+            No crea efectos de animacion
+            Ni texto
+
+    Busca al padre contenedor para aplicar las propiedas que flexbox nos ofrece 
+    a los hijos dentro de ese contenedor. 
+
+
+CSS Flexbox Alineaciòn
+    Te permite a linear los elementos de forma horizontal y vertical
+    Existen diferentes propiedades como:
+        justify-content
+        align-items
+            estos asu vez contiene valores a utilizar
+
+
+
+CSS Grid 
+    Te permite definir la ubicaciòn y el tamaño de tu sitio web
+    CSS Grid te permite distribuir elementos en ambas direcciones 
+       Se habilita colocando 
+            display:grid
+
+¿Es mejor CSS grid vs CSS flexbox?
+        Se complementan, ambas tecnologias son aceptadas para crear sitios webs
+
+
+CSS Fuentes
+    Por medio de CSS podemos definir la fuente que tendra nuestro diseños
+    otras propiedades a modificar
+        Ancho de letra
+        tamaño
+        tipo 
+        estilo 
+        alineacio
+
+    Se usa la propiedad 
+        @font-face{
+            font-family: nombreFuente;
+            src: url(ubicacion.woff);
+        }
+
+    Se descargan las fuentes de algun sitio y las cargas en tu proyesto las fuentes a utilizar
+        Google Fonts son gratis
+
